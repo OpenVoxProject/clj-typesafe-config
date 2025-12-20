@@ -1,4 +1,4 @@
-(defproject puppetlabs/typesafe-config "0.2.1-SNAPSHOT"
+(defproject org.openvoxproject/typesafe-config "0.2.1-SNAPSHOT"
   :description "Thin Clojure wrapper around Typesafe Config library"
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
@@ -16,8 +16,7 @@
   :lein-release        {:scm          :git
                         :deploy-via   :lein-deploy}
 
-  :deploy-repositories [["releases" {:url "https://clojars.org/repo"
-                                     :username :env/clojars_jenkins_username
-                                     :password :env/clojars_jenkins_password
-                                     :sign-releases false}]
-                        ["snapshots" "https://artifactory.delivery.puppetlabs.net/artifactory/clojure-snapshots__local/"]])
+  :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
+                                     :username :env/CLOJARS_USERNAME
+                                     :password :env/CLOJARS_PASSWORD
+                                     :sign-releases false}]])
