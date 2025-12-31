@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/puppetlabs/clj-typesafe-config.png?branch=master)](https://travis-ci.org/puppetlabs/clj-typesafe-config)
-
 clj-typesafe-config
 ===================
 
@@ -9,4 +7,4 @@ A thin clojure wrapper around the [Typesafe Config](https://github.com/typesafeh
 
 Add the following dependency to your `project.clj` file:
 
-[![Clojars Project](http://clojars.org/puppetlabs/typesafe-config/latest-version.svg)](http://clojars.org/puppetlabs/typesafe-config)
+[![Clojars Project](http://clojars.org/org.openvoxproject/typesafe-config/latest-version.svg)](http://clojars.org/org.openvoxproject/typesafe-config)
