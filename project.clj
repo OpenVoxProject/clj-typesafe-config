@@ -16,7 +16,7 @@
   :lein-release        {:scm          :git
                         :deploy-via   :lein-deploy}
 
-  :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
+  :deploy-repositories [["releases" {:url "https://clojars.org/repo"
                                      :username :env/CLOJARS_USERNAME
                                      :password :env/CLOJARS_PASSWORD
                                      :sign-releases false}]])
