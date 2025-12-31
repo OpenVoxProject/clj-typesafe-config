@@ -11,8 +11,6 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [com.typesafe/config "1.4.1"]]
 
-  :plugins [[lein-release "1.0.5"]]
-
   :lein-release        {:scm          :git
                         :deploy-via   :lein-deploy}
 
