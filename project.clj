@@ -1,4 +1,4 @@
-(defproject org.openvoxproject/typesafe-config "0.2.3-SNAPSHOT"
+(defproject org.openvoxproject/typesafe-config "1.0.0-SNAPSHOT"
   :description "Thin Clojure wrapper around Typesafe Config library"
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
@@ -8,7 +8,7 @@
   ;; requires lein 2.2.0+.
   :pedantic? :abort
 
-  :dependencies [[org.clojure/clojure "1.8.0"]
+  :dependencies [[org.clojure/clojure "1.11.2"] ;; Match what is used in clj-parent
                  [com.typesafe/config "1.4.1"]]
 
   :lein-release        {:scm          :git
