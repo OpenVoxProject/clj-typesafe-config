@@ -1,4 +1,4 @@
-(defproject org.openvoxproject/typesafe-config "1.0.0-SNAPSHOT"
+(defproject org.openvoxproject/typesafe-config "1.0.0"
   :description "Thin Clojure wrapper around Typesafe Config library"
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
