@@ -9,7 +9,7 @@
   :pedantic? :abort
 
   :dependencies [[org.clojure/clojure "1.12.4"]
-                 [com.typesafe/config "1.4.5"]]
+                 [com.typesafe/config "1.4.6"]]
 
   :lein-release        {:scm          :git
                         :deploy-via   :lein-deploy}
