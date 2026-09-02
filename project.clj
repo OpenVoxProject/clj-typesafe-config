@@ -8,7 +8,7 @@
   ;; requires lein 2.2.0+.
   :pedantic? :abort
 
-  :dependencies [[org.clojure/clojure "1.12.5"]
+  :dependencies [[org.clojure/clojure "1.12.6"]
                  [com.typesafe/config "1.4.9"]]
 
   :lein-release        {:scm          :git
