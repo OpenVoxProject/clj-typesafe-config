@@ -7,3 +7,7 @@
 /targets/
 pom.xml
 target/
+/.bundle
+/.vendor
+/vendor
+/Gemfile.lock
